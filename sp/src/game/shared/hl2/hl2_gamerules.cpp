@@ -157,6 +157,11 @@ ConVar	sk_max_striderbuster	( "sk_max_striderbuster", "3", FCVAR_REPLICATED);
 //ConVar sk_npc_dmg_brickbat	( "sk_npc_dmg_brickbat","0", FCVAR_REPLICATED);
 //ConVar sk_max_brickbat		( "sk_max_brickbat","0", FCVAR_REPLICATED);
 
+// DOBrien: Add my custom (copycat) pistol
+ConVar sk_plr_dmg_glock("sk_plt_dmg_glock", "0", FCVAR_REPLICATED);
+ConVar sk_npc_dmg_glock("sk_npc_dmg_glock", "0", FCVAR_REPLICATED);
+ConVar sk_max_glock("sk_max_glock", "0", FCVAR_REPLICATED);
+
 ConVar	sk_plr_dmg_smg1_grenade	( "sk_plr_dmg_smg1_grenade","0", FCVAR_REPLICATED);
 ConVar	sk_npc_dmg_smg1_grenade	( "sk_npc_dmg_smg1_grenade","0", FCVAR_REPLICATED);
 ConVar	sk_max_smg1_grenade		( "sk_max_smg1_grenade","0", FCVAR_REPLICATED );

@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game 		"My First HL2 Mod"
+	game 		"source-sdk-2013"
 	title 		"HALF-LIFE'"
 	title2		""
 	supportsvr	1
